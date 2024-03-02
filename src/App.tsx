@@ -7,6 +7,7 @@ import SpaceSection from './components/SpaceSection'
 import PopSection from './components/PopSection'
 import ToddlersSection from './components/ToddlersSection'
 import RealWorldSection from './components/RealWorldSection'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <ToddlersSection />
         <RealWorldSection />
       </div>
+      <Footer />
     </>
   )
 }
