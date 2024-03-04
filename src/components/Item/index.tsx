@@ -1,4 +1,4 @@
-import './Item.css'
+import '../../assets/css/Item.css'
 import { Property } from 'csstype'
 
 interface ItemProps {

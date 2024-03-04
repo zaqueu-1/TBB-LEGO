@@ -1,4 +1,4 @@
-import './Section.css'
+import '../../assets/css/Section.css'
 
 interface SectionProps {
     title?: string
@@ -16,11 +16,11 @@ export function Section({ title, subTitle, accentColor, childrenTop, childrenBot
             {title && (
                 <div className="section-header">
                     <h2 className="section-title">{title}</h2>
-                    <h3 className="section-subtitle">{subTitle}</h3>
                 </div>
             )}
             {childrenTop && (
                 <div className="section-inner">
+                    <h3 className="section-subtitle">{subTitle}</h3>
                     {childrenTop}
                 </div>
             )}

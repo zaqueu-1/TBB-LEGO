@@ -1,0 +1,31 @@
+.hero-container {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    background-color: #B1B1B1;
+    padding: 4rem;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    bottom: -4rem;
+    background-color: red;
+}
+
+.hero-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: -4rem;
+}
+
+.bottom-controls {
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
